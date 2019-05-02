@@ -15,12 +15,12 @@ npm install --save react-widgets
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-widgets'
+import {TextBox} from 'react-widgets'
 
 class Example extends Component {
   render () {
     return (
-      <MyComponent />
+      <TextBox title={"Text box title"} />
     )
   }
 }
