@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 
-import ExampleComponent from 'react-widgets'
+import {Test, TextBox} from 'react-widgets'
 
 export default class App extends Component {
   render () {
     return (
       <div>
-        <ExampleComponent text='Modern React component module' />
+        <Test title={"Probando un title"}></Test>
+        <TextBox placeholder={"Probando placeholder"} ></TextBox>        
       </div>
     )
   }

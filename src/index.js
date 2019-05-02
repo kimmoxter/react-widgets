@@ -1,22 +1,5 @@
-import React, { Component } from 'react'
-import PropTypes from 'prop-types'
+import {Test} from './components/Test';
+import {TextBox} from './components/TextBox';
 
-import styles from './styles.css'
-
-export default class ExampleComponent extends Component {
-  static propTypes = {
-    text: PropTypes.string
-  }
-
-  render() {
-    const {
-      text
-    } = this.props
-
-    return (
-      <div className={styles.test}>
-        Example Component: {text}
-      </div>
-    )
-  }
-}
+// We export as named exports components.
+export { Test, TextBox }
